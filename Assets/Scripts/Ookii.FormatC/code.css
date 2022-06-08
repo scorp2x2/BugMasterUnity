@@ -1,0 +1,99 @@
+/* This is the default style sheet for syntax highlighting with FormatC.
+ * This stylesheet follows the default settings of Visual Studio 2008 and
+ * SQL Server Management Studio 2008 (for T-SQL) as much as possible.
+ * You can customize this stylesheet to suit your preferences.
+ */
+pre.code
+{
+	font-size: small;
+	font-family: Consolas, monospace;
+}
+pre.code .keyword, pre.code .preprocessor
+{
+	color: #00F;
+}
+pre.code .operator
+{
+	color: #C63;
+}
+pre.code .comment
+{
+	color: #008000;
+}
+pre.code .xmlLiteral .comment
+{
+	color: #629755;
+}
+pre.code .string
+{
+	color: #A31515;
+}
+pre.code .entity
+{
+	color: #F00;
+}
+pre.code .tagDelimiter, pre.code .attributeDelimiter
+{
+	color: #00F;
+}
+pre.code .xmlLiteral .tagDelimiter, pre.code .xmlLiteral .attributeDelimiter, pre.code .xmlDelimiter, pre.code .xmlImportAttributeDelimiter
+{
+	color: #6464B9;
+}
+pre.code .tagName
+{
+	color: #A31515;
+}
+pre.code .xmlLiteral .tagName
+{
+	color: #844646;
+}
+pre.code .attributeName
+{
+	color: #F00;	
+}
+pre.code .xmlLiteral .attributeName, pre.code .xmlImportAttributeName
+{
+	color: #B96464;
+}
+pre.code .attributeValue
+{
+	color: #00F
+}
+pre.code .xmlLiteral .attributeValue, pre.code .xmlImportAttributeValue
+{
+	color: #6464B9;
+}
+pre.code .cdata
+{
+	color: #808080;
+}
+pre.code .xmlLiteral .cdata
+{
+	color: #C0C0C0;
+}
+pre.code .type
+{
+	color: #2B91AF;
+}
+pre.code .xmlLiteral .embeddedExpressionDelimiter
+{
+	color: #555;
+	background-color: #FFFEBF;
+}
+pre.code .sqlString
+{
+	color: #F00;
+}
+pre.code .sqlSystemFunction
+{
+	color: #F0F;
+}
+pre.code .sqlOperator, pre.code .psOperator
+{
+	color: #808080;
+}
+pre.code .lineNumber
+{
+	color: #808080;
+}

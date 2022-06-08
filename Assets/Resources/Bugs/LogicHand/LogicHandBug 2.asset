@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85a23c6fd3f44950813a84d6cbe41e9d, type: 3}
+  m_Name: LogicHandBug 2
+  m_EditorClassIdentifier: 
+  Type: 2
+  Level: 2
+  Code: "void DetermineCurrentKind()\r\n{\r\n  ....\r\n  else if (Brush is LinearGradientBrush)
+    {\r\n    linearGradientBrush = Brush as LinearGradientBrush;\r\n    radialGradientBrush.GradientStops
+    =\r\n      linearGradientBrush.GradientStops;\r\n  }\r\n  else if (Brush is RadialGradientBrush)
+    {\r\n    radialGradientBrush = Brush as RadialGradientBrush;\r\n    linearGradientBrush.GradientStops
+    =      \r\n      linearGradientBrush.GradientStops;     \r\n    CurrentKind =
+    BrushEditorKind.Radial;\r\n  }\r\n}\r"
+  helpNotes:
+  - "\u041E\u0448\u0438\u0431\u043A\u0430 \u043C\u0435\u0436\u0434\u0443 9 \u0438
+    13 \u0441\u0442\u0440\u043E\u043A\u0430\u043C\u0438 "
+  - "\u041E\u0448\u0438\u0431\u043A\u0430 \u0432 11 \u0441\u0442\u0440\u043E\u043A\u0435"
+  - "\u0421\u0442\u0440\u043E\u043A\u0430 11 \u043B\u0438\u0448\u043D\u044F\u044F
+    (11-12)"
+  Ansver: "void DetermineCurrentKind()\r\n{\r\n  ....\r\n  else if (Brush is LinearGradientBrush)
+    {\r\n    linearGradientBrush = Brush as LinearGradientBrush;\r\n    radialGradientBrush.GradientStops
+    =\r\n      linearGradientBrush.GradientStops;\r\n  }\r\n  else if (Brush is RadialGradientBrush)
+    {\r\n    radialGradientBrush = Brush as RadialGradientBrush;\r\n    CurrentKind
+    = BrushEditorKind.Radial;\r\n  }\r\n}\r"

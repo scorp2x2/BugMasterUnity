@@ -1,0 +1,62 @@
+
+BugEasyIdle.png
+size: 722,720
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Body
+  rotate: false
+  xy: 399, 283
+  size: 321, 435
+  orig: 321, 435
+  offset: 0, 0
+  index: -1
+HandsL
+  rotate: true
+  xy: 399, 134
+  size: 147, 292
+  orig: 147, 292
+  offset: 0, 0
+  index: -1
+HandsR
+  rotate: true
+  xy: 2, 133
+  size: 132, 321
+  orig: 132, 321
+  offset: 0, 0
+  index: -1
+Head
+  rotate: false
+  xy: 2, 267
+  size: 395, 451
+  orig: 395, 451
+  offset: 0, 0
+  index: -1
+LegLDown
+  rotate: true
+  xy: 337, 6
+  size: 126, 135
+  orig: 126, 135
+  offset: 0, 0
+  index: -1
+LegLup
+  rotate: true
+  xy: 2, 22
+  size: 109, 161
+  orig: 109, 161
+  offset: 0, 0
+  index: -1
+LegRDown
+  rotate: true
+  xy: 474, 4
+  size: 128, 130
+  orig: 128, 130
+  offset: 0, 0
+  index: -1
+LegRup
+  rotate: true
+  xy: 165, 34
+  size: 97, 170
+  orig: 97, 170
+  offset: 0, 0
+  index: -1

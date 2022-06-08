@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85a23c6fd3f44950813a84d6cbe41e9d, type: 3}
+  m_Name: LogicHandBug 3
+  m_EditorClassIdentifier: 
+  Type: 2
+  Level: 3
+  Code: "void OptionsChanged (object sender, EventArgs e)\r\n{\r\n  gutterMargin.IsVisible
+    = Options.ShowLineNumberMargin;\r\n  iconMargin.IsVisible = iconMargin.IsVisible;\r\n
+    \ ....\r\n}\r\npublic bool IsVisible { get; set; }\r"
+  helpNotes:
+  - "\u041E\u0448\u0438\u0431\u043A\u0430 \u043C\u0435\u0436\u0434\u0443 2 \u0438
+    6 \u0441\u0442\u0440\u043E\u043A\u0430\u043C\u0438 "
+  - "\u041E\u0448\u0438\u0431\u043A\u0430 \u0432 4 \u0441\u0442\u0440\u043E\u043A\u0435"
+  - "\u0421\u0442\u0440\u043E\u043A\u0430 4 \u043B\u0438\u0448\u043D\u044F\u044F"
+  Ansver: "void OptionsChanged (object sender, EventArgs e)\r\n{\r\n  gutterMargin.IsVisible
+    = Options.ShowLineNumberMargin;\r\n  ....\r\n}\r\npublic bool IsVisible { get;
+    set; }\r"

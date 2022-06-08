@@ -1,0 +1,97 @@
+
+BugLow.png
+size: 966,965
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BodyDown
+  rotate: true
+  xy: 2, 26
+  size: 358, 396
+  orig: 358, 396
+  offset: 0, 0
+  index: -1
+BodyUp
+  rotate: false
+  xy: 2, 386
+  size: 687, 577
+  orig: 687, 577
+  offset: 0, 0
+  index: -1
+HandsDown
+  rotate: true
+  xy: 691, 813
+  size: 150, 261
+  orig: 150, 261
+  offset: 0, 0
+  index: -1
+HandsLUP
+  rotate: true
+  xy: 763, 23
+  size: 89, 116
+  orig: 89, 116
+  offset: 0, 0
+  index: -1
+HandsRDown
+  rotate: true
+  xy: 400, 207
+  size: 177, 288
+  orig: 177, 288
+  offset: 0, 0
+  index: -1
+HandsRUp
+  rotate: true
+  xy: 763, 114
+  size: 110, 124
+  orig: 110, 124
+  offset: 0, 0
+  index: -1
+Head
+  rotate: false
+  xy: 691, 597
+  size: 240, 214
+  orig: 240, 214
+  offset: 0, 0
+  index: -1
+LegsLDown
+  rotate: false
+  xy: 400, 2
+  size: 201, 203
+  orig: 201, 203
+  offset: 0, 0
+  index: -1
+LegsLUP
+  rotate: false
+  xy: 603, 24
+  size: 158, 181
+  orig: 158, 181
+  offset: 0, 0
+  index: -1
+LegsRDown
+  rotate: true
+  xy: 691, 399
+  size: 196, 216
+  orig: 196, 216
+  offset: 0, 0
+  index: -1
+LegsRUp
+  rotate: true
+  xy: 691, 226
+  size: 171, 207
+  orig: 171, 207
+  offset: 0, 0
+  index: -1
+teethL
+  rotate: false
+  xy: 909, 376
+  size: 54, 108
+  orig: 54, 108
+  offset: 0, 0
+  index: -1
+teethR
+  rotate: false
+  xy: 909, 486
+  size: 55, 109
+  orig: 55, 109
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,90 @@
+
+BugMedium.png
+size: 866,866
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BodyDown
+  rotate: false
+  xy: 2, 392
+  size: 468, 472
+  orig: 468, 472
+  offset: 0, 0
+  index: -1
+BodyUP
+  rotate: true
+  xy: 2, 59
+  size: 331, 463
+  orig: 331, 463
+  offset: 0, 0
+  index: -1
+HandsLDown
+  rotate: false
+  xy: 467, 102
+  size: 87, 221
+  orig: 87, 221
+  offset: 0, 0
+  index: -1
+HandsLTop
+  rotate: true
+  xy: 652, 27
+  size: 87, 198
+  orig: 87, 198
+  offset: 0, 0
+  index: -1
+HandsLUP
+  rotate: false
+  xy: 645, 116
+  size: 83, 207
+  orig: 83, 207
+  offset: 0, 0
+  index: -1
+HandsRDown
+  rotate: false
+  xy: 556, 102
+  size: 87, 221
+  orig: 87, 221
+  offset: 0, 0
+  index: -1
+HandsRTop
+  rotate: true
+  xy: 467, 2
+  size: 98, 183
+  orig: 98, 183
+  offset: 0, 0
+  index: -1
+HandsRUP
+  rotate: false
+  xy: 730, 116
+  size: 83, 207
+  orig: 83, 207
+  offset: 0, 0
+  index: -1
+Head
+  rotate: false
+  xy: 472, 478
+  size: 315, 386
+  orig: 315, 386
+  offset: 0, 0
+  index: -1
+ToothL
+  rotate: false
+  xy: 789, 644
+  size: 56, 107
+  orig: 56, 107
+  offset: 0, 0
+  index: -1
+ToothR
+  rotate: false
+  xy: 789, 753
+  size: 75, 111
+  orig: 75, 111
+  offset: 0, 0
+  index: -1
+sting
+  rotate: false
+  xy: 472, 325
+  size: 346, 151
+  orig: 346, 151
+  offset: 0, 0
+  index: -1

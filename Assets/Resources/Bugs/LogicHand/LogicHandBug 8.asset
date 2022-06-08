@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85a23c6fd3f44950813a84d6cbe41e9d, type: 3}
+  m_Name: LogicHandBug 8
+  m_EditorClassIdentifier: 
+  Type: 2
+  Level: 2
+  Code: "protected virtual void OnBeforeNodeRender(ref XmlTree sender,  ref XmlTreeNode
+    node, EventArgs e)\r\n{\r\n  if (node != null && node != null)\r\n  {\r\n    if
+    (BeforeNodeRender != null)\r\n      BeforeNodeRender(ref sender, ref node, e);\r\n
+    \ }\r\n}\r"
+  helpNotes:
+  - "\u041E\u0448\u0438\u0431\u043A\u0430 \u0432 \u0432\u044B\u0440\u0430\u0436\u0435\u043D\u0438\u0438
+    if"
+  - "\u041B\u043E\u0433\u0438\u0447\u0435\u0441\u043A\u0430\u044F \u043E\u0448\u0438\u0431\u043A\u0430
+    \u0432 \u0432\u044B\u0440\u0430\u0436\u0435\u043D\u0438\u0438 if"
+  - "\u0422\u0430\u0432\u0442\u043E\u043B\u043E\u0433\u0438\u044F \u0432 4 \u0441\u0442\u0440\u043E\u043A\u0435"
+  Ansver: "protected virtual void OnBeforeNodeRender(ref XmlTree sender,  ref XmlTreeNode
+    node, EventArgs e)\r\n{\r\n  if (node != null)\r\n  {\r\n    if (BeforeNodeRender
+    != null)\r\n      BeforeNodeRender(ref sender, ref node, e);\r\n  }\r\n}\r"

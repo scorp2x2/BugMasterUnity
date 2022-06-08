@@ -1,0 +1,11 @@
+1.1:
+- Support for VB 9.0
+- Support for C# 3.0
+1.2:
+- Added support for escaped keywords in C# and VB.
+- Added support for PowerShell and T-SQL.
+- Improved string handling in C# and C++.
+- Improved XML formatter.
+- Added support for line numbers.
+1.2.1:
+- Fixed: XML formatter didn't support element or attribute names containing periods.

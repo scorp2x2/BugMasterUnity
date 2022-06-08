@@ -1,0 +1,76 @@
+
+Unicorn.png
+size: 993,993
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Body
+  rotate: false
+  xy: 2, 164
+  size: 327, 827
+  orig: 327, 827
+  offset: 0, 0
+  index: -1
+CloakDown
+  rotate: false
+  xy: 331, 459
+  size: 464, 532
+  orig: 464, 532
+  offset: 0, 0
+  index: -1
+CloakUp
+  rotate: false
+  xy: 340, 59
+  size: 274, 151
+  orig: 274, 151
+  offset: 0, 0
+  index: -1
+Eye
+  rotate: false
+  xy: 616, 90
+  size: 155, 120
+  orig: 155, 120
+  offset: 0, 0
+  index: -1
+HandsL
+  rotate: false
+  xy: 797, 647
+  size: 170, 344
+  orig: 170, 344
+  offset: 0, 0
+  index: -1
+HandsR
+  rotate: true
+  xy: 2, 2
+  size: 160, 336
+  orig: 160, 336
+  offset: 0, 0
+  index: -1
+Head
+  rotate: true
+  xy: 331, 212
+  size: 245, 449
+  orig: 245, 449
+  offset: 0, 0
+  index: -1
+LegL
+  rotate: false
+  xy: 797, 401
+  size: 156, 244
+  orig: 156, 244
+  offset: 0, 0
+  index: -1
+LegR
+  rotate: false
+  xy: 782, 154
+  size: 153, 245
+  orig: 153, 245
+  offset: 0, 0
+  index: -1
+ear
+  rotate: false
+  xy: 773, 42
+  size: 135, 110
+  orig: 135, 110
+  offset: 0, 0
+  index: -1
